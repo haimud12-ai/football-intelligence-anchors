@@ -1,0 +1,34 @@
+{
+  "schema": "football-intelligence-github-anchor/v1",
+  "purpose": "Public minimal hash anchor for the three signed forecast ledgers covering Winner16 coupon 264301. This document deliberately excludes forecasts, source results, keys, and signature values.",
+  "couponId": "264301",
+  "algorithm": "SHA-256",
+  "signingAlgorithm": "Ed25519",
+  "signingKeyId": "01f33a3eff8ec69dc23651ac7acf922f344fd402ff564f83ac110960cae0f389",
+  "ledgers": [
+    {
+      "path": "forecast_ledger/2026-10-29T15-06-06-725Z-5d63137b1ba3.json",
+      "schema": "football-intelligence-forecast-ledger/v2",
+      "createdAt": "2026-10-29T15:06:06.725Z",
+      "forecastCount": 4,
+      "recordSha256": "5d63137b1ba3280a694efcee9cd9cbdc123ad0d22a9d3f16681b7c1310eb8e68",
+      "detachedSignatureSha256": "02bef823f40d89d3ff18edcb626afabd6ea084c19fb938671d7d9edfa7be3d1a"
+    },
+    {
+      "path": "forecast_ledger/winner16-isr-national-2026-10-29T14-59-20-011Z-e53728695644.json",
+      "schema": "football-intelligence-winner16-isr-national-forecast-ledger/v1",
+      "createdAt": "2026-10-29T14:59:20.011Z",
+      "forecastCount": 2,
+      "recordSha256": "e53728695644e7b57ca61cfb6d2883d32db1e37e6f87b13b665554125fe08865",
+      "detachedSignatureSha256": "c9c606d8890cb4763b3abd1da13fcdd66f590314cbcbbed4ffb61073e6b21ccf"
+    },
+    {
+      "path": "forecast_ledger/winner16-europe-2026-10-28T09-07-24-227Z-f32d13ba2d42.json",
+      "schema": "football-intelligence-winner16-europe-forecast-ledger/v1",
+      "createdAt": "2026-10-28T09:07:24.227Z",
+      "forecastCount": 10,
+      "recordSha256": "f32d13ba2d42062310dd20c6c131e9162e8b0bde11dd065c7d8836e6a43958fe",
+      "detachedSignatureSha256": "206c032fad4e16204e94142437d80f56ee193bbb556f02a80b4f79788295ce63"
+    }
+  ]
+}
